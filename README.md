@@ -13,7 +13,11 @@
 > BOJ/[문제번호] 문제 이름/계정/README.md <br>
 
 ## :computer: Contributors
-> [Jfe](https://github.com/Go-Jaecheol)
+> [Jfe](https://github.com/Go-Jaecheol) <br>
+> [BaekSu](https://github.com/SeongukBaek) <br>
+> [pinkishincoloragain](https://github.com/pinkishincoloragain) <br>
+> [DDAGUE](https://github.com/DDAGUE) <br>
+> [choi-jaewon](https://github.com/choi-jaewon) <br>
 
 ## :computer: 일정표
 ||1|2|
