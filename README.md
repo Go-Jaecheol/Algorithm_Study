@@ -30,8 +30,8 @@
 > [e70e6916](https://github.com/e70e6916)
 
 ## :computer: 일정표
-||1|2|
-|:---:|:---:|:---:|
+||1|2|3|
+|:---:|:---:|:---:|:---:|
 |`1주차`<br> (01.18 ~ 01.24)|[종이의 개수](https://www.acmicpc.net/problem/1780)|[쿼드트리](https://www.acmicpc.net/problem/1992)||
-|`2주차`<br> (01.25 ~ 01.31)|[쉬운 계단 수](https://www.acmicpc.net/problem/10844)|[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)|[오르막 수]()
-|`3주차`<br> (02.01 ~ 02.07)||[심 의 량](https://github.com/njh0317/MakeyourCs)
+|`2주차`<br> (01.25 ~ 01.31)|[쉬운 계단 수](https://www.acmicpc.net/problem/10844)|[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)|[오르막 수](https://www.acmicpc.net/problem/11057)|
+|`3주차`<br> (02.01 ~ 02.07)|[LCS](https://www.acmicpc.net/problem/9251)|[가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002)|[줄세우기](https://www.acmicpc.net/problem/2631)|
