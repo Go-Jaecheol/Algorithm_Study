@@ -4,7 +4,7 @@
 > [Baekjoon Online Judge](https://www.acmicpc.net/)
 
 ## :computer: 진행 방식
-> 매주 2문제씩 풀고 업로드하고 리뷰 `(README.md)` 합니다.  
+> 매주 3문제씩 풀고 업로드하고 리뷰 `(README.md)` 합니다.  
 > ( 21.01.18 ~ )
 
 ## :computer: Repository 규칙
@@ -32,6 +32,6 @@
 ## :computer: 일정표
 ||1|2|
 |:---:|:---:|:---:|
-|`1주차`<br> (01.18 ~ 01.24)|[종이의 개수](https://www.acmicpc.net/problem/1780)|[쿼드트리](https://www.acmicpc.net/problem/1992)|
-|`2주차`<br> (01.25 ~ 01.31)|||
-|`3주차`<br> (02.01 ~ 02.07)|||
+|`1주차`<br> (01.18 ~ 01.24)|[종이의 개수](https://www.acmicpc.net/problem/1780)|[쿼드트리](https://www.acmicpc.net/problem/1992)||
+|`2주차`<br> (01.25 ~ 01.31)|[쉬운 계단 수](https://www.acmicpc.net/problem/10844)|[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)|[오르막 수]()
+|`3주차`<br> (02.01 ~ 02.07)||[심 의 량](www.github.com/njh0317/MakeyourCs)
