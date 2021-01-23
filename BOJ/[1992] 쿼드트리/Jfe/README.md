@@ -1,7 +1,7 @@
 # [1992] 쿼드트리 - C++, Python
 
 ## :mag: Algorithm
-분할 정복
+**분할 정복**
 
 ## :computer: Logic
 ### C++
