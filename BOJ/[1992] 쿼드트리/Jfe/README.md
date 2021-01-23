@@ -1,9 +1,10 @@
-# [1992] 쿼드트리 - C++
+# [1992] 쿼드트리 - C++, Python
 
 ## :mag: Algorithm
 분할 정복
 
 ## :computer: Logic
+### C++
 ```C
 void Check_Video(int index, int col_sp, int row_sp)
 ```
@@ -13,7 +14,16 @@ void Check_Video(int index, int col_sp, int row_sp)
 int Check_Execption(int n)
 ```
 처음부터 모두 다 같은 숫자가 나오는 경우에는 예외 처리하는 함수를 사용
-
+***
+### Python
+```Python
+def checkSame(row_sp, col_sp, index)
+```
+숫자가 하나라도 다르면 **False** 반환, 전부 같으면 **True** 반환
+```Python
+def divideVideo(row_sp, col_sp, index)
+```
+**checkSame**의 반환 값이 **True**면 문자열에 추가, **False**면 **재귀**
 ## :memo: Review
 [1780] 종이의 개수 문제랑 비슷한 스타일이다.  
 3으로 나눌걸 2로 나누도록 바꾸고 입출력을 문자열로 다루는 것만 빼면 거의 비슷
