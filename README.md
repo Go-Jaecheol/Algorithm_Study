@@ -3,18 +3,18 @@
 ## :computer: 참고 사이트
 > [Baekjoon Online Judge](https://www.acmicpc.net/)
 
-## :computer: 진행 방식
+## :pushpin: 진행 방식
 > 매주 3문제씩 풀고 업로드하고 리뷰 `(README.md)` 합니다.  
 > ( 21.01.18 ~ )
 
-## :computer: Repository 규칙
+## :round_pushpin: Repository 규칙
 > BOJ/[문제번호] 문제 이름/계정/src
 > 
 > e.g) BOJ/[1992] 쿼드트리/Jfe/Main.py
 > 
 > BOJ/[문제번호] 문제 이름/계정/README.md
 
-## :computer: Contributors
+## :family: Contributors
 > [Jfe](https://github.com/Go-Jaecheol)
 > 
 > [BaekSu](https://github.com/SeongukBaek)
@@ -29,7 +29,7 @@
 > 
 > [e70e6916](https://github.com/e70e6916)
 
-## :computer: 일정표
+## :alarm_clock: 일정표
 ||1|2|3|
 |:---:|:---:|:---:|:---:|
 |`1주차`<br> (01.18 ~ 01.24)|[종이의 개수](https://www.acmicpc.net/problem/1780)|[쿼드트리](https://www.acmicpc.net/problem/1992)||
