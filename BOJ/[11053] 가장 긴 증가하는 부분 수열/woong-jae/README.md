@@ -14,6 +14,7 @@ int lis(int start) {
     //cache에 이미 계산한 값이 있는지 확인
     int& ret = cache[start];
     if(ret != -1) return ret;
+    
     //cache에 없으므로 계산한다.
     ret = 1;
     for(int i = start + 1; i < n; i++) {//뒤에 있는 수  중, 시작점보다 큰 수의 lis를 찾는다.
