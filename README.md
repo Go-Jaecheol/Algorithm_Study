@@ -39,3 +39,5 @@
 |`1주차`<br> (01.18 ~ 01.24)|[종이의 개수](https://www.acmicpc.net/problem/1780)|[쿼드트리](https://www.acmicpc.net/problem/1992)||
 |`2주차`<br> (01.25 ~ 01.31)|[쉬운 계단 수](https://www.acmicpc.net/problem/10844)|[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)|[오르막 수](https://www.acmicpc.net/problem/11057)|
 |`3주차`<br> (02.01 ~ 02.07)|[LCS](https://www.acmicpc.net/problem/9251)|[가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002)|[줄세우기](https://www.acmicpc.net/problem/2631)|
+|`4주차`<br> (02.08 ~ 02.14)|[LCS 2](https://www.acmicpc.net/problem/9252)|[평범한 배낭](https://www.acmicpc.net/problem/12865)|[내리막 길](https://www.acmicpc.net/problem/1520)|
+
