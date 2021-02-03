@@ -1,39 +1,37 @@
-# [14002] 가장 긴 증가하는 부분 수열 4
+# [9251] LCS
 ## 💡Algorithm
 
 다이나믹 프로그래밍
 
 ## 💡Logic
 
-실제 답을 계산하기 위해서 각 부분 문제마다 어떤 선택지를 택했을 때 최적해를 얻는지를 기록해 두고, 각 조각에서 한 선택을 되짚어 가면서 최적해를 생성한다.
+두 개의 문자열을 처음부터 비교한다.
+
+지금 index가 가르키는 두 개의 문자가 같다면, index를 둘 다 증가시킨 후 다음 부분 문제로 들어간다.
+
+문자가 다르다면, index를 각각 하나씩만 올린 부분 문제로 들어간다.
 
 ```
-ret = 1;
-int bestNext = -1;
-for(int i = start + 1; i < n; i++) {
-    if(start == -1 || input[start] < input[i]) {
-        int candidate = lis(i) + 1;
-        if(candidate > ret) {
-            ret = candidate;
-            bestNext = i;
-        }
+int lcs(int index1, int index2) {
+    if(index1 == str1.size() || index2 == str2.size()) return 0;
+    int&ret = cache[index1][index2];
+    if(ret != -1) return ret;
+    
+    ret = 0;
+    if(str1[index1] == str2[index2]) {
+        ret = max(ret, lcs(index1 + 1, index2 + 1) + 1);
+    } else {
+        ret = max(lcs(index1 + 1, index2), lcs(index1, index2 + 1));
     }
-}
-choices[start + 1] = bestNext;
-```
-
-```
-void reconstruct(int start, vector<int>& seq) {
-    if(start != -1) seq.push_back(input[start]);
-    int next = choices[start + 1];
-    if(next != -1) reconstruct(next, seq);
+    
+    return ret;
 }
 ```
 
 ## 💡Review
 
-처음에는 cache를 이용해서 결과를 구하는 코드를 짰는데, 메모리 초과가 났다...
+다음 부분 문제로 들어가는 부분을 이중포문으로 구현하니 시간 초과가 났다...
 
-해결 방법은 최적해를 따로 구하는게 아니라, 어떤 선택을 하면 최적해가 되는지 기록해두는 cache를 하나 더 두고 LIS를 구하면서 기록을 하는 것이다.
+알고보니 굳이 포문으로 들어갈 필요가 없었다. 이런 식으로 생각은 어떻게 하는지 참 신기하다.
 
-너무 어렵다... 근데 재밌다.
+이중 포문이 들어가면 일단 나를 의심해야겠다.
