@@ -5,31 +5,35 @@
 
 ## 💡Logic
 
-시작점의 수보다 뒤에 있는 수 중에서 시작점의 수보다 큰 수들을 찾는다. 그 수들의 LIS + 1 한 값이 시작점의 LIS가 된다.
-
-겹치는 부분문제를 cache와 비교해서 다시 계산하지 않도록 한다.
+실제 답을 계산하기 위해서 각 부분 문제마다 어떤 선택지를 택했을 때 최적해를 얻는지를 기록해 두고, 각 조각에서 한 선택을 되짚어 가면서 최적해를 생성한다.
 
 ```
-int lis(int start) {
-    //cache에 이미 계산한 값이 있는지 확인
-    int& ret = cache[start];
-    if(ret != -1) return ret;
-    
-    //cache에 없으므로 계산한다.
-    ret = 1;
-    for(int i = start + 1; i < n; i++) {//뒤에 있는 수  중, 시작점보다 큰 수의 lis를 찾는다.
-        if(input[start] < input[i])
-            ret = max(ret, lis(i) + 1);//가장 큰 값을 찾음
+ret = 1;
+int bestNext = -1;
+for(int i = start + 1; i < n; i++) {
+    if(start == -1 || input[start] < input[i]) {
+        int candidate = lis(i) + 1;
+        if(candidate > ret) {
+            ret = candidate;
+            bestNext = i;
+        }
     }
-    
-    return ret;
+}
+choices[start + 1] = bestNext;
+```
+
+```
+void reconstruct(int start, vector<int>& seq) {
+    if(start != -1) seq.push_back(input[start]);
+    int next = choices[start + 1];
+    if(next != -1) reconstruct(next, seq);
 }
 ```
 
-수열을 순회하면서 가장 큰 lis 값을 찾으면 된다.
-
 ## 💡Review
 
-DP의 대표적인 문제라고 한다. 바텀-업으로 짠 코드가 많지만, 나는 탑-다운이 편한 것 같다.
+처음에는 cache를 이용해서 결과를 구하는 코드를 짰는데, 메모리 초과가 났다...
 
-종만북에 lis가 소개되어 있어서 참고했다. 다들 종만북 사세요.
+해결 방법은 최적해를 따로 구하는게 아니라, 어떤 선택을 하면 최적해가 되는지 기록해두는 cache를 하나 더 두고 LIS를 구하면서 기록을 하는 것이다.
+
+너무 어렵다... 근데 재밌다.
