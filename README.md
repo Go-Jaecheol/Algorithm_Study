@@ -2,6 +2,8 @@
 
 ## :computer: 참고 사이트
 > [Baekjoon Online Judge](https://www.acmicpc.net/)
+>
+> https://blog.naver.com/jawo123
 
 ## :pushpin: 진행 방식
 > 매주 3문제씩 풀고 업로드하고 리뷰 `(README.md)` 합니다.  
