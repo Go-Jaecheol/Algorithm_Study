@@ -7,7 +7,7 @@
 
 Cache를 이용해서 역추적을 한다. Cache에 최선을 구한 기록이 있으니, 그것을 토대로 최선 선택을 하며 문자열을 찾아낸다.
 
-cache[index1 + 1][index2] 와 cache[index1][index2 + 1] 중 큰 것으로 파고 들어가다 같은 것이 있으면 문자열에 추가해주고, 두 개의 index 모두 +1 해준다.
+cache[index1 + 1][index2] 와 cache[index1][index2 + 1] 중 큰 것으로 파고 들어가다 같은 것이 있으면 문자열에 추가해주고, 두 개의 index 모두 +1 해서 이동한다.
 
 ```
 void reconstruct(int index1, int index2, string& seq) {
