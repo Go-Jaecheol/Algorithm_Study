@@ -9,7 +9,7 @@
 
 겹치는 부분문제를 cache와 비교해서 다시 계산하지 않도록 한다.
 
-```
+```c++
 int lis(int start) {
     //cache에 이미 계산한 값이 있는지 확인
     int& ret = cache[start];
