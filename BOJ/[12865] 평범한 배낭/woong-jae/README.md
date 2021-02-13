@@ -9,7 +9,7 @@
 
 이후 item도 똑같은 선택을 하기 때문에 재귀함수로 구현한다. 기저사례는 모든 아이템을 순회했을때이다.
 
-```
+```c++
 int packing(int weight, int item) {
     if(item == n) return 0;
     int& ret = cache[weight][item];
