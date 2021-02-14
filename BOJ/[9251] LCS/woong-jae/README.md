@@ -11,7 +11,7 @@
 
 문자가 다르다면, index를 각각 하나씩만 올린 부분 문제로 들어간다.
 
-```
+```c++
 int lcs(int index1, int index2) {
     if(index1 == str1.size() || index2 == str2.size()) return 0;
     int&ret = cache[index1][index2];

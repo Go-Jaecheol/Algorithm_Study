@@ -9,7 +9,7 @@ Cache를 이용해서 역추적을 한다. Cache에 최선을 구한 기록이 �
 
 cache[index1 + 1][index2] 와 cache[index1][index2 + 1] 중 큰 것으로 파고 들어가다 같은 것이 있으면 문자열에 추가해주고, 두 개의 index 모두 +1 해서 이동한다.
 
-```
+```c++
 void reconstruct(int index1, int index2, string& seq) {
     if(index1 < str1.size() && index2 < str2.size()) {//인덱스가 범위를 벗어났는지 확인
         if(str1[index1] == str2[index2]) {//같은 글자를 찾았을 때
