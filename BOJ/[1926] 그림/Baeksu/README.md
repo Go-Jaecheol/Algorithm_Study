@@ -47,7 +47,7 @@ int picture(int x, int y, int area) {
                 }
         }
     }
-	return area;
+    return area;
 }
 ```
 
