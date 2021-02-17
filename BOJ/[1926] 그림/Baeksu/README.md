@@ -34,7 +34,7 @@ if (max_area < area)
 
 ```c++
 int picture(int x, int y, int area) {
-	if (visited[x][y] == -1) {
+    if (visited[x][y] == -1) {
         area++;
         visited[x][y] = 1;
         for (int i = 0; i < 4; i++) {
