@@ -41,7 +41,7 @@ int putWall(vector<vector<int>>& map) {
 
 BFS를 사용해서 바이러스가 있는 구역을 모두 돌면서 바이러스를 퍼뜨린다. 바이러스를 다 퍼뜨리면 "getSafeArea()" 함수를 사용해서 안전 구역의 넓이를 구해 반환한다.
 
-```
+```c++
 int spreadVirus(vector<vector<int>>& copy) {
     vector<vector<int>> map(copy);
     queue<pair<int, int>> st;
