@@ -1,4 +1,4 @@
-# [14502] 종이의 개수 - Python
+# [14502] 연구소 - Python
 
 ## :mag: Algorithm
 
