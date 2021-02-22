@@ -89,3 +89,25 @@ BFS 함수 짜는 부분보다 오히려 브루트포스로 벽 3개 세우는 �
 
 Python3로도 통과하는 사람들 있던데  
 나중에 다시 해봐야지ㅜ
+
+---
+
+벽 세우는 부분을 combinations()를 이용하니까  
+Python3에서도 시간초과 안나고 잘 돌아감
+
+```Python
+def buildWall(wall_count):
+    blank = []
+    for i in range(N):
+        for j in range(M):
+            if lab[i][j] == 0:
+                blank.append((i, j))
+
+    comb = list(combinations(blank, 3))
+    for c in comb:
+        copy_lab = [lab[i][:] for i in range(N)]
+        for i in range(3):
+            copy_lab[c[i][0]][c[i][1]] = 1
+        spreadVirus(copy_lab)
+```
+
