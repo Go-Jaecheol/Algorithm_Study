@@ -7,11 +7,11 @@ def dfs(x, set_x):
     if visited[x] == 1:
         return
     visited[x] = 1
-    set_x.append(x)
 
     if x == num[x]:
         add_set.append(x)
         return
+    set_x.append(x)
 
     global max_set
     check = 0
@@ -34,8 +34,7 @@ def dfs(x, set_x):
     if check == 0:
         return
 
-add_set = []
-max_set = []
+add_set, max_set = [], []
 for i in range(1, N+1):
     dfs(i, [])
 
