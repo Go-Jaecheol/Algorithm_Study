@@ -3,36 +3,20 @@ sys.setrecursionlimit(10**8)
 
 N = int(input())
 second = [int(input()) for x in range(N)]
-first = [int(x) for x in range(1,N+1)]
-visited = [False for x in range(N)]
-result = [False for x in range(N)]
+result = []
 
-def dfs(v):
+def dfs(v, start):
     visited[v] = True
-    result[v] = True
     next = second[v]
-    if visited[next-1] == False and dfs(next-1):
-        return True
-    elif result[next-1]:
-        return True
-    result[v] = False
-    return False
+    if not(visited[next-1]):
+        dfs(next-1, start)
+    elif visited[next-1] and next-1 == start:
+        result.append(next)
 
-def checkOverlap():
-    for i in range(N):
-        if result[i] == False and second[i] == i+1:
-            result[i] = True
+for i in range(N):
+    visited = [False for x in range(N)]
+    dfs(i, i)
 
-def printResult():
-    num = []
-    for i in range(N):
-        if result[i] == True:
-            num.append(i+1)
-    print(len(num))
-    num.sort()
-    for i in range(len(num)):
-        print(num[i])
-
-dfs(0)
-checkOverlap()
-printResult()
+print(len(result))
+for i in range(len(result)):
+    print(result[i])
