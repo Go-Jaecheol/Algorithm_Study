@@ -80,9 +80,7 @@ while (1) {
 
 - 일단 문제 길이보고 쫄아버렸음
 - 해결 방법이 생각나지 않아 구글링
-
-[참고자료]: https://velog.io/@skyepodium/%EB%B0%B1%EC%A4%80-16236-%EC%95%84%EA%B8%B0-%EC%83%81%EC%96%B4
-
+- 참고자료: https://velog.io/@skyepodium/%EB%B0%B1%EC%A4%80-16236-%EC%95%84%EA%B8%B0-%EC%83%81%EC%96%B4
 - 이런 문제일수록 천천히 문제를 읽으면서 정리하는 방법을 추천해줬고 앞으로도 문제가 긴 유형을 만난다면 쫄지말고 천천히 적어보면서 정리해야겠음
 - 그리고 흔히 `int A, B;`와 같이 선언을 많이 하는데 이와 비슷하게 동적 할당 배열 해제 시 `delete[] space, visited`로 사용했더니 백준에서는 정답처리는 되었는데 `warning: right operand of comma operator has no effect`라고 떴음
 - 그래서 동적 할당 배열 선언과 해제 시 `space = new int* [N], visited = new int* [N];`, `delete[] space, delete[] visited;`와 같은 방법을 사용하니 역시 정답처리는 되었는데 이번엔 `0ms`에서 `4ms` 로 시간이 좀 더 소모되었음
