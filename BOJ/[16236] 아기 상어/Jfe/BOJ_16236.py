@@ -1,62 +1,65 @@
-import sys 
-from collections import deque 
-T = int(input()) 
-net = [list(map(int, sys.stdin.readline().split())) for _ in range(T)] 
-visited = [[False]*T for _ in range(T)] 
-res = [] 
-cnt = 0 
-exp = 2 
-dx = [1, -1, 0, 0] 
-dy = [0, 0, 1, -1] 
-level = 2 
-real_cnt = 0 
+from collections import deque
+import heapq
 
-def bfs(s): 
-    global level 
-    if visited[s[0]][s[1]] == True: 
-        return 
-    visited[s[0]][s[1]] = True 
-    for i in range(4): 
-        rx = s[0] + dx[i] 
-        ry = s[1] + dy[i] 
-        if rx == T or rx == -1 or ry == -1 or ry ==T: 
-            continue 
-        if visited[rx][ry] == True: 
-            continue 
-        if level >= net[rx][ry]: 
-            Q.append((rx,ry)) 
-        if level > net[rx][ry] > 0: 
-            res.append((rx,ry)) 
+N = int(input())
+space = [[int(x) for x in input().split()]for y in range(N)]
+dx = [1, 0, -1, 0]
+dy = [0, 1, 0, -1]
+size = 2
+time = 0
+exp = 0
+h = []
 
-for i in range(T): 
-    for j in range(T): 
-        if net[i][j] == 9: 
-            break 
-    if net[i][j] == 9: 
-        net[i][j] = 0 
-        break 
-Q = deque([(i,j)]) 
-while Q: 
-    for i in range(len(Q)): 
-        bfs(Q.popleft()) 
-    cnt += 1 
-    if res: 
-        res.sort() 
-        Q = deque([res.pop(0)]) 
-        net[Q[0][0]][Q[0][1]] = 0 
-        res = [] 
-        visited = [[False] * T for _ in range(T)] 
-        exp -= 1 
-        if exp == 0: 
-            level += 1 
-            exp = level 
-        real_cnt = cnt 
-        for i in range(T): 
-            for j in range(T): 
-                if level > net[i][j]: 
-                    break 
-            if level > net[i][j]: 
-                break
-        else: 
-            break 
-print(real_cnt)
+def bfs(x, y, result):
+    visited = [[0 for x in range(N)]for y in range(N)]
+    que = deque()
+    visited[y][x] = 1
+    que.append((x, y, result))
+    eat_cnt = 0
+    max_size = 401
+    h.clear()
+
+    while que:
+        x, y, result = que.popleft()
+        if result >= max_size:
+            break
+        for i in range(4):
+            next_x = x + dx[i]
+            next_y = y + dy[i]
+            if 0 <= next_x < N and 0 <= next_y < N and visited[next_y][next_x] == 0:
+                if space[next_y][next_x] == 0 or space[next_y][next_x] == size:
+                    next_result = result + 1
+                    visited[next_y][next_x] = 1
+                    que.append((next_x, next_y, next_result))
+                elif 0 < space[next_y][next_x] < size:
+                    next_result = result + 1
+                    visited[next_y][next_x] = 1
+                    max_size = next_result
+                    heapq.heappush(h, (next_y, next_x, next_result))
+                    eat_cnt += 1
+    if eat_cnt == 0:
+        return False
+    else:
+        return True
+
+for i in range(N):
+    for j in range(N):
+        if space[i][j] == 9:
+            location_y = i
+            location_x = j
+            space[i][j] = 0
+            break
+
+while True:
+    finish = bfs(location_x, location_y, 0)
+    if finish == 0:
+        print(time)
+        break
+    else:
+        location_y, location_x, result = heapq.heappop(h)
+        space[location_y][location_x] = 0
+        time += result
+        exp += 1
+        if exp == size:
+            size += 1
+            exp = 0
