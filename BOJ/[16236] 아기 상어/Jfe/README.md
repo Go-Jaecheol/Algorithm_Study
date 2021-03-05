@@ -96,3 +96,17 @@ if result >= max_size:
 ```
 여기에 부등호를 >= 가 아닌 > 로 해놓은게 문제였음  
 후,, 이제 시작인데 그럴 수도 있지;;;;;
+
+---
+**Python**에서 **우선순위 큐(Priority Queue)**  
+-> **heapq** 모듈 사용
+```Python
+import heapq
+h = []
+heapq.heappush(h, (3, "Hello"))
+heapq.heappush(h, (10, "World!"))
+
+first = heapq.heappop(h)
+second = heapq.heappop(h)
+```
+기본 구조
