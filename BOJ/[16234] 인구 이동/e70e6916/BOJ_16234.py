@@ -35,8 +35,16 @@ while check:
     for i in range(N):
         for j in range(N):
             if not visited[i][j]:
-                union = []
-                move_population(i, j)
+                test = False
+                for d in direction:
+                    x, y = i + d[0], j + d[1]
+                    if 0 <= x < N and 0 <= y < N and not visited[x][y]:
+                        if L <= abs(land[x][y] - land[i][j]) <= R:
+                            test = True
+                            break
+                if test:
+                    union = []
+                    move_population(i, j)
     if check:
         move_cnt += 1
 
