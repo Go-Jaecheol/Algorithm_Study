@@ -1,4 +1,4 @@
-# [16234] 인구 이동 - Python
+# [17142] 연구소 3 - Python
 
 ## :mag: Algorithm
 
