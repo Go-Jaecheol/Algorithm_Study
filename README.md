@@ -43,7 +43,9 @@
 |**5주차**<br> (02.15 ~ 02.21)|[그림](https://www.acmicpc.net/problem/1926)|[미로 탐색](https://www.acmicpc.net/problem/2178)|[연구소](https://www.acmicpc.net/problem/14502)|
 |**6주차**<br> (02.22 ~ 02.28)|[숫자고르기](https://www.acmicpc.net/problem/2668)|[적록색약](https://www.acmicpc.net/problem/10026)|[아기 상어](https://www.acmicpc.net/problem/16236)|
 |**7주차**<br> (03.01 ~ 03.07)|[ABCDE](https://www.acmicpc.net/problem/13023)|[인구 이동](https://www.acmicpc.net/problem/16234)|[연구소 3](https://www.acmicpc.net/problem/17142)|
+|**8주차**<br> (03.08 ~ 03.14)|[주사위](https://www.acmicpc.net/problem/1041)|[도서관](https://www.acmicpc.net/problem/1461)|[강의실 배정](https://www.acmicpc.net/problem/11000)|
 
 > - **1주차 : 분할 정복**  
 > - **2주차 ~ 4주차 : 다이나믹 프로그래밍 (DP)**  
-> - **5주차 ~ : 그래프 (DFS & BFS)**  
+> - **5주차 ~ 7주차 : 그래프 (DFS & BFS)**  
+> - **8주차 ~ : 그리디 알고리즘 (Greedy)**  
