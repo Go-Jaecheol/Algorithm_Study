@@ -3,7 +3,11 @@
 ## :mag: Algorithm
 
 **Greedy**
+
+
 **sort**
+
+
 **priority queue**
 
 
@@ -12,9 +16,10 @@
 **우선순위 큐**를 위해 ```heapq``` 모듈을 사용했다. 
 
 
-먼저, 입력 받은 수업 시간들을 **시작 시간을 기준으로 오름차순 정렬**한다.
+1. 먼저, 입력 받은 수업 시간들을 **시작 시간을 기준으로 오름차순 정렬**한다.
 
 
+2.
 ```python
 heapq.heappush(room, lecture[0][1])
 for i in range(1, N):
@@ -33,7 +38,7 @@ print(len(room))
 새 강의실이 필요하다면 heap에 수업을 추가.)
 
 
-N에 대한 for문이 종료되면 최종 업데이트 된 ```room```의 길이를 출력한다.
+3. N에 대한 for문이 종료되면 최종 업데이트 된 ```room```의 길이를 출력한다.
 
 
 ## :memo: Review
