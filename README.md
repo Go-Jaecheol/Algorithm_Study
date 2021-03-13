@@ -44,6 +44,7 @@
 |**6주차**<br> (02.22 ~ 02.28)|[숫자고르기](https://www.acmicpc.net/problem/2668)|[적록색약](https://www.acmicpc.net/problem/10026)|[아기 상어](https://www.acmicpc.net/problem/16236)|
 |**7주차**<br> (03.01 ~ 03.07)|[ABCDE](https://www.acmicpc.net/problem/13023)|[인구 이동](https://www.acmicpc.net/problem/16234)|[연구소 3](https://www.acmicpc.net/problem/17142)|
 |**8주차**<br> (03.08 ~ 03.14)|[주사위](https://www.acmicpc.net/problem/1041)|[도서관](https://www.acmicpc.net/problem/1461)|[강의실 배정](https://www.acmicpc.net/problem/11000)|
+|**9주차**<br> (03.15 ~ 03.21)|[배](https://www.acmicpc.net/problem/1092)|[단어 수학](https://www.acmicpc.net/problem/1339)|[카드 정렬하기](https://www.acmicpc.net/problem/1715)|
 
 > - **1주차 : 분할 정복**  
 > - **2주차 ~ 4주차 : 다이나믹 프로그래밍 (DP)**  
