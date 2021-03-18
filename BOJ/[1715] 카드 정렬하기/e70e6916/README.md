@@ -21,7 +21,7 @@
     print(final_sum)
 ```
 ```heapq.heappop(cards)```을 두번하여 나온 최소값 두개의 합 ```card_sum```을 다시
-```cards``` **heappush**한다.
+```cards```에 **heappush**한다.
 
 
 그리고 ```fianl_sum```에  ```card_sum```을 더해주며 업데이트 해준다.
