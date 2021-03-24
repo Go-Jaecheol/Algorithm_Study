@@ -14,8 +14,7 @@ _sum = 1
 for i in range(N):
     if _sum < weight[i]:
         break
-    else:
-        _sum += weight[i]
+    _sum += weight[i]
 print(_sum)
 ```
 
