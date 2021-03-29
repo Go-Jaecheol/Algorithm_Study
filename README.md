@@ -44,8 +44,10 @@
 |**8주차**<br> (03.08 ~ 03.14)|[주사위](https://www.acmicpc.net/problem/1041)|[도서관](https://www.acmicpc.net/problem/1461)|[강의실 배정](https://www.acmicpc.net/problem/11000)|
 |**9주차**<br> (03.15 ~ 03.21)|[배](https://www.acmicpc.net/problem/1092)|[단어 수학](https://www.acmicpc.net/problem/1339)|[카드 정렬하기](https://www.acmicpc.net/problem/1715)|
 |**10주차**<br> (03.22 ~ 03.28)|[저울](https://www.acmicpc.net/problem/2437)|[컵라면](https://www.acmicpc.net/problem/1781)|[공항](https://www.acmicpc.net/problem/10775)|
+|**11주차**<br> (03.29 ~ 04.04)|[최단경로](https://www.acmicpc.net/problem/1753)|[최소비용 구하기](https://www.acmicpc.net/problem/1916)|[녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485)|
 
 > - **1주차 : 분할 정복**  
 > - **2주차 ~ 4주차 : 다이나믹 프로그래밍 (DP)**  
 > - **5주차 ~ 7주차 : 그래프 탐색 (DFS & BFS)**  
-> - **8주차 ~ : 그리디 알고리즘 (Greedy)**  
+> - **8주차 ~ 10주차 : 그리디 알고리즘 (Greedy)**  
+> - **11주차 ~  : 다익스트라 (Dijkstra)**  
