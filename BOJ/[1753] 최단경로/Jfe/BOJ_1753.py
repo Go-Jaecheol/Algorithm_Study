@@ -1,13 +1,13 @@
 import sys, heapq
 V , E = map(int, sys.stdin.readline().split())
 K = int(sys.stdin.readline())
-graph = [[] for _ in range(V+1)]
-distance = [float('inf') for _ in range(V+1)]
+graph = [[] for _ in range(V)]
+distance = [float('inf') for _ in range(V)]
 
 def inputGraph():
     for _ in range(E):
         u, v, w = map(int, sys.stdin.readline().split())
-        graph[u].append([v, w])
+        graph[u-1].append([v-1, w])
 
 def dijkstra(start):
     h = []
@@ -25,6 +25,6 @@ def dijkstra(start):
                 heapq.heappush(h, [value, new_state])
 
 inputGraph()
-dijkstra(K)
-for i in range(1, V+1):
-    print(distance[i] if distance[i] != float('inf') else 'INf')
+dijkstra(K-1)
+for i in range(V):
+    print(distance[i] if distance[i] != float('inf') else 'INF')
