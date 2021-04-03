@@ -12,8 +12,8 @@ def inputGraph():
         u, v, w = map(int, sys.stdin.readline().split())
         graph[u-1].append([v-1, w])
 ```
-- **그래프 인접리스트 만드는 함수**  
-  * 입력받은 u, v, w를 이용해서 인접 리스트 graph 생성  
+- **그래프 **인접리스트** 만드는 함수**  
+  * 입력받은 `u, v, w`를 이용해서 인접 리스트 `graph` 생성  
 ---
 
 ```Python
@@ -32,13 +32,13 @@ def dijkstra(start):
                 heapq.heappush(h, [value, new_state])
 ```
 - **우선순위 큐를 이용한 다익스트라 알고리즘 함수**  
-  * 최단 거리를 저장하기 위한 리스트 distance는 'inf'로 초기화 되어있음  
-  * 시작점 start의 distance 값을 0으로 설정하고 heappush  
-  * heappop을 해서 cur_value, cur_state에 저장하고  
-  * cur_value가 기존 distance[cur_state]보다 크면 continue  
-  * 작거나 같으면 이 cur_state에 연결된 정점과 간선 값을 받아서  
-  * 더한 가중치가 기존 가중치보다 작으면 업데이트하고 heappush  
-  * 이 과정을 우선순위 큐가 비어있을 때까지 반복  
+  * 최단 거리를 저장하기 위한 리스트 `distance`는 `'inf'`로 초기화 되어있음  
+  * 시작점 `start`의 `distance` 값을 ***0***으로 설정하고 **heappush**  
+  * **heappop**을 해서 `cur_value`, `cur_state`에 저장하고  
+  * `cur_value`가 기존 `distance[cur_state]`보다 **크면** **continue**  
+  * **작거나 같으면** 이 `cur_state`에 연결된 **정점**과 **간선 값**을 받아서  
+  * 더한 가중치가 기존 가중치보다 작으면 업데이트하고 **heappush**  
+  * 이 과정을 **우선순위 큐가 비어있을 때까지** 반복  
 ---
 
 ## :memo: Review
