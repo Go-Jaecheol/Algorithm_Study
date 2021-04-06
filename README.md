@@ -46,8 +46,12 @@
 |**10주차**<br> (03.22 ~ 03.28)|[저울](https://www.acmicpc.net/problem/2437)|[컵라면](https://www.acmicpc.net/problem/1781)|[공항](https://www.acmicpc.net/problem/10775)|
 |**11주차**<br> (03.29 ~ 04.04)|[최단경로](https://www.acmicpc.net/problem/1753)|[최소비용 구하기](https://www.acmicpc.net/problem/1916)|[녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485)|
 
+***중간고사 기간 (04.05 ~ 04.25)***  
+시험 공부 열심히 합시다^^
+
 > - **1주차 : 분할 정복**  
 > - **2주차 ~ 4주차 : 다이나믹 프로그래밍 (DP)**  
 > - **5주차 ~ 7주차 : 그래프 탐색 (DFS & BFS)**  
 > - **8주차 ~ 10주차 : 그리디 알고리즘 (Greedy)**  
-> - **11주차 ~  : 다익스트라 (Dijkstra)**  
+> - **11주차 : 다익스트라 (Dijkstra)**  
+> - ***중간고사 기간 (04.05 ~ 04.25)***
