@@ -3,7 +3,7 @@
 ## :computer: 참고 사이트
 > [Baekjoon Online Judge](https://www.acmicpc.net/)
 >
-> https://blog.naver.com/jawo123
+> [Notion 알고리즘 정리](https://www.notion.so/Algorithm-b79e31f05c39413fb9babbc5ef57bfe9)
 
 ## :pushpin: 진행 방식
 > 매주 3문제씩 풀고 업로드하고 리뷰 `(README.md)` 합니다.  
