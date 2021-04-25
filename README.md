@@ -32,6 +32,9 @@
 > [e70e6916](https://github.com/e70e6916)
 
 ## :alarm_clock: 일정표
+
+<details><summary>1주차 ~ 11주차 문제 확인</summary>
+
 ||1|2|3|
 |:---:|:---:|:---:|:---:|
 |**1주차**<br> (01.18 ~ 01.24)|[종이의 개수](https://www.acmicpc.net/problem/1780)|[쿼드트리](https://www.acmicpc.net/problem/1992)||
@@ -46,12 +49,22 @@
 |**10주차**<br> (03.22 ~ 03.28)|[저울](https://www.acmicpc.net/problem/2437)|[컵라면](https://www.acmicpc.net/problem/1781)|[공항](https://www.acmicpc.net/problem/10775)|
 |**11주차**<br> (03.29 ~ 04.04)|[최단경로](https://www.acmicpc.net/problem/1753)|[최소비용 구하기](https://www.acmicpc.net/problem/1916)|[녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485)|
 
-***중간고사 기간 (04.05 ~ 04.25)***  
-시험 공부 열심히 합시다^^
-
 > - **1주차 : 분할 정복**  
 > - **2주차 ~ 4주차 : 다이나믹 프로그래밍 (DP)**  
 > - **5주차 ~ 7주차 : 그래프 탐색 (DFS & BFS)**  
 > - **8주차 ~ 10주차 : 그리디 알고리즘 (Greedy)**  
 > - **11주차 : 다익스트라 (Dijkstra)**  
 > - ***중간고사 기간 (04.05 ~ 04.25)***
+
+</details>
+
+***중간고사 기간 (04.05 ~ 04.25)***  
+시험 공부 열심히 합시다^^
+
+---
+
+||1|2|3|
+|:---:|:---:|:---:|:---:|
+|**12주차**<br> (04.26 ~ 05.02)|[최소 스패닝 트리](https://www.acmicpc.net/problem/1197)|[네트워크 연결](https://www.acmicpc.net/problem/1922)|[도시 분할 계획](https://www.acmicpc.net/problem/1647)|
+
+
