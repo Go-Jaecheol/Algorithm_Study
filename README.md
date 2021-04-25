@@ -67,4 +67,4 @@
 |:---:|:---:|:---:|:---:|
 |**12주차**<br> (04.26 ~ 05.02)|[최소 스패닝 트리](https://www.acmicpc.net/problem/1197)|[네트워크 연결](https://www.acmicpc.net/problem/1922)|[도시 분할 계획](https://www.acmicpc.net/problem/1647)|
 
-
+> - **12주차 : 최소 스패닝 트리 (MST)**  
