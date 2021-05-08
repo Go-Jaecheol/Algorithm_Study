@@ -1,67 +1,44 @@
-# [1197] 최소 스패닝 트리 - C ++
+# [1647] 도시 분할 계획 - C ++
 
 ## :pushpin: **Algorithm**
 
-그리디 알고리즘
+- 그래프 이론, 최소 스패닝 트리
+
 
 ## :round_pushpin: **Logic**
 
 ```c++
-if (N == 1) {
-    for (int i = 0; i < 6; i++) {
-        if (i != max_idx)
-            sum += dice[i];
-    }
-}
-else {
-    find_123();
-    unsigned long long side1 = one * (N - 2) * (5 * N - 6);
-    unsigned long long side2 = two * 4 * (2 * N - 3);
-    unsigned long long side3 = three * 4;
-    sum = side1 + side2 + side3;
+void prim(int s) {
+	int maxC = 0;
+	visited[s] = 1;
+	priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+
+	for (int i = 0; i < graph[s].size(); i++)
+		pq.push(make_pair(graph[s][i].second, graph[s][i].first));
+
+	while (!pq.empty()) {
+		int cur = pq.top().second;
+		int curCost = pq.top().first;
+		pq.pop();
+
+		if (visited[cur] == 1) continue;
+		visited[cur] = 1;
+
+		if (maxC < curCost)
+			maxC = curCost;
+		cost += curCost;
+		for (int i = 0; i < graph[cur].size(); i++)
+			pq.push(make_pair(graph[cur][i].second, graph[cur][i].first));
+	}
+	cout << cost - maxC;
 }
 ```
 
-- N이 1인 경우와 아닌 경우로 나눔
-  - 1이 아닌 경우, 정육면체를 구성하는 각 주사위들 중 **1개의 면만 보이는 주사위**, **2개의 면만 보이는 주사위**, **3개의 면만 보이는 주사위**로 총 3가지 경우가 존재
-  - `find_123()`함수로 보이는 면의 수에 따라 최소값을 구해 각각 `one`, `two`, `three`에 저장
-  - N에 따라 **1, 2, 3개의 면만 보이는 주사위의 수가 결정**되므로, 위와 같은 식 도출, `sum` 합산
-
-```c++
-void find_123() {
-	unsigned long long sum3;
-	int idx2;
-	for (int i = 0; i < 6; i++) {
-		long s = dice[min_idx];
-		if (i != min_idx && min_idx + i != 5) {
-			s += dice[i];
-			if (s < two) {
-				two = s;
-				idx2 = i;
-			}
-		}
-	}
-	for (int j = 0; j < 6; j++) {
-		sum3 = two;
-		if (j != min_idx && j != idx2 && min_idx + j != 5 && idx2 + j != 5) { 
-			sum3 += dice[j];
-			if (sum3 < three)
-				three = sum3;
-		}
-	}
-}
-```
-
-- 첫번째 `for`문에서는 **2개의 면만 보이는 주사위의 최소값**을 구함
-  - 먼저 구한 주사위 수 중 **최소인 수**에 **그와 마주보지 않는 주사위 면에 쓰인 수**를 더해보면서 최소값 계산
-    - 이때, 주어진 주사위의 `index`를 합했을 때, **`5`가 되면 마주보는 면**임을 이용
-- 두번째 `for`문에서는 **3개의 면만 보이는 주사위의 최소값**을 구함
-  - 먼저 구한 **2개의 면만 보이는 주사위의 최소값**에 **이미 더한 각 면과 마주보지 않는 주사위 면에 쓰인 수**를 더해보면서 최소값 계산
+- **prim algorithm** 과 **우선순위 큐**를 이용하여 최소 스패닝 트리를 구함
+- `for문` : 우선순위 큐(오름차순)에 시작점에서 갈 수 있는 모든 노드정보를 저장
+- `while문` : 시작점에서 갈 수 있는 노드 중 가장 가중치가 작은 노드를 방문하고 마찬가지로 갈 수 있는 모든 노드정보를 저장, `cost`에는 방문하지 않은 노드로 가는 가중치만을 더함
+  - 그리고 마을을 2개로 나누어야 하기 때문에, 유지비가 가장 큰 길을 제외하여 두 마을로 분리
 
 ## :black_nib: **Review**
 
-- `그리디 알고리즘`이라서 모든 경우에 대해 생각해봐야 하지만 항상 좀 더 효율적으로 생각할 수는 없는지에 대한 생각은 멈출 수 없다 ...
-- 그래서 모든 경우가 아닌 범위를 좁히는 방법을 생각
-  - 정육면체를 구성하는 모든 주사위는 항상 1, 2, 3개의 면만 보이므로 각 경우에 대한 최소값을 가지고 합산한다면 곧 정답
-  - 이때, N에 대하여 1, 2, 3개의 면만 보이는 주사위의 수를 도출해내는 식을 생각하는 것이 제일 어려웠음
-- `DP`문제를 풀 때도 그렇듯 문제를 보면 답을 도출해내기 위한 규칙을 찾아야 한다는 강박이 있는 것 같다.
+- 역시 **1197 최소 스패닝 트리** 코드 복붙해서 ... 두 마을로 나눠야 하니까 **MST**를 2개 만들면 되겠다고 생각, 그래서 유지비가 제일 큰 길 제외
