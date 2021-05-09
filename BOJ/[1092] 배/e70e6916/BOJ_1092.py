@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import sys
 import heapq
 N = int(sys.stdin.readline())
@@ -22,3 +23,29 @@ if cranes[-1] < boxes[0]:
     print(-1)
 else:
     print(move_box())
+=======
+N = int(input())
+crane = list(map(int, input().split()))
+M = int(input())
+box = list(map(int, input().split()))
+
+crane.sort()
+box.sort(reverse=True)
+if crane[N-1] < box[0]:
+    print(-1)
+    quit()
+
+time, move = 0, 0
+while move != M:
+    for i in range(N):
+        if not crane[i]: continue
+        for j in range(M):
+            if box[j] and crane[i] >= box[j]:
+                box[j] = 0
+                move += 1
+                break
+            if j == M-1:
+                crane[i] = 0
+    time += 1
+print(time)
+>>>>>>> Stashed changes
