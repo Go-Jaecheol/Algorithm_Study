@@ -1,5 +1,5 @@
 import sys
-V, E = map(int, input().split())
+V, E = int(input()), int(input())
 graph = list(list(map(int, sys.stdin.readline().split())) for _ in range(E))
 graph.sort(key=lambda x: x[2])
 
