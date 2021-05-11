@@ -66,5 +66,6 @@
 ||1|2|3|
 |:---:|:---:|:---:|:---:|
 |**12주차**<br> (05.03 ~ 05.09)|[최소 스패닝 트리](https://www.acmicpc.net/problem/1197)|[네트워크 연결](https://www.acmicpc.net/problem/1922)|[도시 분할 계획](https://www.acmicpc.net/problem/1647)|
+|**13주차**<br> (05.10 ~ 05.16)|[나만 안되는 연애](https://www.acmicpc.net/problem/14621)|[전기가 부족해](https://www.acmicpc.net/problem/10423)|[행성 터널](https://www.acmicpc.net/problem/2887)|
 
-> - **12주차 : 최소 스패닝 트리 (MST)**  
+> - **12주차 ~ : 최소 스패닝 트리 (MST)**  
