@@ -68,6 +68,8 @@
 |**12주차**<br> (05.03 ~ 05.09)|[최소 스패닝 트리](https://www.acmicpc.net/problem/1197)|[네트워크 연결](https://www.acmicpc.net/problem/1922)|[도시 분할 계획](https://www.acmicpc.net/problem/1647)|
 |**13주차**<br> (05.10 ~ 05.16)|[나만 안되는 연애](https://www.acmicpc.net/problem/14621)|[전기가 부족해](https://www.acmicpc.net/problem/10423)|[행성 터널](https://www.acmicpc.net/problem/2887)|
 |**14주차**<br> (05.17 ~ 05.23)|[가장 큰 정사각형](https://www.acmicpc.net/problem/1915)|[합분해](https://www.acmicpc.net/problem/2225)|[내려가기](https://www.acmicpc.net/problem/2096)|
+|**15주차**<br> (05.24 ~ 05.30)|[파이프 옮기기 1](https://www.acmicpc.net/problem/17070)|[1학년](https://www.acmicpc.net/problem/5557)|[이모티콘](https://www.acmicpc.net/problem/14226)|
 
 > - **12주차 ~ 13주차: 최소 스패닝 트리 (MST)**  
-> - **14주차 ~ : 다이나믹 프로그래밍 (DP)**  
+> - **14주차 ~ 15주차: 다이나믹 프로그래밍 (DP)**  
+> - ***기말고사 기간 (05.31 ~ )***
