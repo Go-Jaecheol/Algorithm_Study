@@ -29,7 +29,7 @@
 >
 > [woong-jae](https://github.com/woong-jae)
 > 
-> [e70e6916](https://github.com/e70e6916)
+> [KingDonggyu](https://github.com/KingDonggyu)
 
 ## :alarm_clock: 일정표
 
