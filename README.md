@@ -33,7 +33,7 @@
 
 ## :alarm_clock: 일정표
 
-<details><summary>1주차 ~ 11주차 문제 확인</summary>
+<details><summary>1주차 ~ 10주차 문제 확인</summary>
 
 ||1|2|3|
 |:---:|:---:|:---:|:---:|
@@ -47,31 +47,27 @@
 |**8주차**<br> (03.08 ~ 03.14)|[주사위](https://www.acmicpc.net/problem/1041)|[도서관](https://www.acmicpc.net/problem/1461)|[강의실 배정](https://www.acmicpc.net/problem/11000)|
 |**9주차**<br> (03.15 ~ 03.21)|[배](https://www.acmicpc.net/problem/1092)|[단어 수학](https://www.acmicpc.net/problem/1339)|[카드 정렬하기](https://www.acmicpc.net/problem/1715)|
 |**10주차**<br> (03.22 ~ 03.28)|[저울](https://www.acmicpc.net/problem/2437)|[컵라면](https://www.acmicpc.net/problem/1781)|[공항](https://www.acmicpc.net/problem/10775)|
-|**11주차**<br> (03.29 ~ 04.04)|[최단경로](https://www.acmicpc.net/problem/1753)|[최소비용 구하기](https://www.acmicpc.net/problem/1916)|[녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485)|
 
 > - **1주차 : 분할 정복**  
 > - **2주차 ~ 4주차 : 다이나믹 프로그래밍 (DP)**  
 > - **5주차 ~ 7주차 : 그래프 탐색 (DFS & BFS)**  
 > - **8주차 ~ 10주차 : 그리디 알고리즘 (Greedy)**  
-> - **11주차 : 다익스트라 (Dijkstra)**  
-> - ***중간고사 기간 (04.05 ~ 05.02)***
 
 </details>
-
-***중간고사 기간 (04.05 ~ 05.02)***  
-시험 공부 열심히 합시다^^
 
 ---
 
 ||1|2|3|
 |:---:|:---:|:---:|:---:|
+|**11주차**<br> (03.29 ~ 04.04)|[최단경로](https://www.acmicpc.net/problem/1753)|[최소비용 구하기](https://www.acmicpc.net/problem/1916)|[녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485)|
 |**12주차**<br> (05.03 ~ 05.09)|[최소 스패닝 트리](https://www.acmicpc.net/problem/1197)|[네트워크 연결](https://www.acmicpc.net/problem/1922)|[도시 분할 계획](https://www.acmicpc.net/problem/1647)|
 |**13주차**<br> (05.10 ~ 05.16)|[나만 안되는 연애](https://www.acmicpc.net/problem/14621)|[전기가 부족해](https://www.acmicpc.net/problem/10423)|[행성 터널](https://www.acmicpc.net/problem/2887)|
 |**14주차**<br> (05.17 ~ 05.23)|[가장 큰 정사각형](https://www.acmicpc.net/problem/1915)|[합분해](https://www.acmicpc.net/problem/2225)|[내려가기](https://www.acmicpc.net/problem/2096)|
 |**15주차**<br> (05.24 ~ 05.30)|[파이프 옮기기 1](https://www.acmicpc.net/problem/17070)|[1학년](https://www.acmicpc.net/problem/5557)|[이모티콘](https://www.acmicpc.net/problem/14226)|
 |**16주차**<br> (07.05 ~ 07.11)|[이분 그래프](https://www.acmicpc.net/problem/1707)|[텀 프로젝트](https://www.acmicpc.net/problem/9466)|[다리 만들기](https://www.acmicpc.net/problem/2146)|
+|**17주차**<br> (08.23 ~ 08.29)|[스타트링크](https://www.acmicpc.net/problem/5014)|[Puyo Puyo](https://www.acmicpc.net/problem/11559)|[게리맨더링](https://www.acmicpc.net/problem/17471)|
 
-> - **12주차 ~ 13주차: 최소 스패닝 트리 (MST)**  
-> - **14주차 ~ 15주차: 다이나믹 프로그래밍 (DP)**  
-> - ***기말고사 기간 (05.31 ~ )***  
-> - **16주차 ~ : 그래프 탐색 (DFS & BFS)**  
+> - **11주차 : 다익스트라 (Dijkstra)**  
+> - **12주차 ~ 13주차 : 최소 스패닝 트리 (MST)**  
+> - **14주차 ~ 15주차 : 다이나믹 프로그래밍 (DP)**  
+> - **16주차 ~ 17주차 : 그래프 탐색 (DFS & BFS)**  
