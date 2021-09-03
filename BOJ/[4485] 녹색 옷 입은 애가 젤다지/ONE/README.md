@@ -1,4 +1,4 @@
-# [1916] 최소비용 구하기 - JAVA
+# [4485] 녹색 옷 입은 애가 젤다지 - JAVA
 
 ## :black_circle: Algorithm
 **Dijkstra Algorithm, Priority Queue**
