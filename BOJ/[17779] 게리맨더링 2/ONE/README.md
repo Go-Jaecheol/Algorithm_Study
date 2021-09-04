@@ -1,4 +1,4 @@
-# [14503] 로봇 청소기 - JAVA
+# [17779] 게리맨더링 2 - JAVA
 
 ## :black_circle: Algorithm
 **구현 시뮬레이션, Brute Force**
