@@ -68,6 +68,7 @@
 |**17주차**<br> (08.23 ~ 08.29)|[스타트링크](https://www.acmicpc.net/problem/5014)|[Puyo Puyo](https://www.acmicpc.net/problem/11559)|[게리맨더링](https://www.acmicpc.net/problem/17471)|
 |**18주차**<br> (08.30 ~ 09.05)|[톱니바퀴](https://www.acmicpc.net/problem/14891)|[로봇 청소기](https://www.acmicpc.net/problem/14503)|[게리맨더링2](https://www.acmicpc.net/problem/17779)|
 |**19주차**<br> (09.06 ~ 09.12)|[뱀](https://www.acmicpc.net/problem/3190)|[주사위 굴리기](https://www.acmicpc.net/problem/14499)|[드래곤 커브](https://www.acmicpc.net/problem/15685)|
+|**20주차**<br> (09.13 ~ 09.19)|[미세먼지 안녕!](https://www.acmicpc.net/problem/17144)|[이차원 배열과 연산](https://www.acmicpc.net/problem/17140)|[청소년 상어](https://www.acmicpc.net/problem/19236)|
 
 > - **11주차 : 다익스트라 (Dijkstra)**  
 > - **12주차 ~ 13주차 : 최소 스패닝 트리 (MST)**  
