@@ -1,4 +1,4 @@
-# [2225] 합분해 - C++
+# [2225] 합분해 - Java
 
 ## :pushpin: **Algorithm**
 
