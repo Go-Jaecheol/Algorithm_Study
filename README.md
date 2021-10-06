@@ -85,5 +85,7 @@
 ||1|2|3|
 |:---:|:---:|:---:|:---:|
 |**21주차**<br> (09.27 ~ 10.03)|[어른 상어](https://www.acmicpc.net/problem/19237)|[마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)|[마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)|
+|**22주차**<br> (10.04 ~ 10.10)|[줄 세우기](https://www.acmicpc.net/problem/2252)|[문제집](https://www.acmicpc.net/problem/1766)|[음악프로그램](https://www.acmicpc.net/problem/2623)|
 
 > - **/ ~ 21주차 : 시뮬레이션 (삼성 SW 기출 위주)**  
+> - **22주차 ~ : 위상 정렬**  
