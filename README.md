@@ -88,6 +88,7 @@
 |**22주차**<br> (10.04 ~ 10.10)|[줄 세우기](https://www.acmicpc.net/problem/2252)|[문제집](https://www.acmicpc.net/problem/1766)|[음악프로그램](https://www.acmicpc.net/problem/2623)|
 |**23주차**<br> (11.08 ~ 11.14)|[최종 순위](https://www.acmicpc.net/problem/3665)|[게임 개발](https://www.acmicpc.net/problem/1516)|[ACM Craft](https://www.acmicpc.net/problem/1005)|
 |**24주차**<br> (11.15 ~ 11.21)|[⚾](https://www.acmicpc.net/problem/17281)|[배열 돌리기 4](https://www.acmicpc.net/problem/17406)|[캐슬 디펜스](https://www.acmicpc.net/problem/17135)|
+|**25주차**<br> (11.22 ~ 11.28)|[괄호 추가하기](https://www.acmicpc.net/problem/16637)|[색종이 붙이기](https://www.acmicpc.net/problem/17136)|[다리 만들기 2](https://www.acmicpc.net/problem/17472)|
 
 > - **/ ~ 21주차 : 시뮬레이션 (삼성 SW 기출 위주)**  
 > - **22주차 ~ 23주차 : 위상 정렬**  
