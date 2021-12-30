@@ -12,12 +12,12 @@
 ## :round_pushpin: Repository 규칙
 > BOJ/[문제번호] 문제 이름/계정/src
 > 
-> e.g) BOJ/[1992] 쿼드트리/Jfe/Main.py
+> e.g) BOJ/[1992] 쿼드트리/JFe/Main.py
 > 
 > BOJ/[문제번호] 문제 이름/계정/README.md
 
 ## :family: Contributors
-> [Jfe](https://github.com/Go-Jaecheol)
+> [JFe](https://github.com/Go-Jaecheol)
 > 
 > [BaekSu](https://github.com/SeongukBaek)
 > 
@@ -57,7 +57,7 @@
 
 ---
 
-11주차 ~ 20주차 문제 확인
+<details><summary>11주차 ~ 20주차 문제 확인</summary>
 
 ||1|2|3|
 |:---:|:---:|:---:|:---:|
@@ -78,7 +78,7 @@
 > - **16주차 ~ 17주차 : 그래프 탐색 (DFS & BFS)**  
 > - **18주차 ~ : 시뮬레이션 (삼성 SW 기출 위주)**  
   
-
+</details>
 
 ---
 
