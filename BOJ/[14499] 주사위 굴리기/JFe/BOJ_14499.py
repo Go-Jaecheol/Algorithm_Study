@@ -35,7 +35,7 @@ class Dice:
             self.back = temp
 
 dice = Dice()
-cur = [(x, y)]
+cur = [(y, x)]
 while order:
     d = order[0]
     del order[0]
@@ -50,6 +50,7 @@ while order:
             map[next_y][next_x] = dice.value[dice.bottom]
         else:
             dice.value[dice.bottom] = map[next_y][next_x]
+            map[next_y][next_x] = 0
         cur.append((next_x, next_y))
     else:
         cur.append((cur_x, cur_y))
