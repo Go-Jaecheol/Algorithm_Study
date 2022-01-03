@@ -3,6 +3,8 @@
 ## :computer: 참고 사이트
 > [Baekjoon Online Judge](https://www.acmicpc.net/)
 >
+> [프로그래머스](https://programmers.co.kr/)
+>
 > [알고리즘 개념 정리(woong-j)](https://www.notion.so/Algorithm-b79e31f05c39413fb9babbc5ef57bfe9)
 
 ## :pushpin: 진행 방식
@@ -12,12 +14,12 @@
 ## :round_pushpin: Repository 규칙
 > BOJ/[문제번호] 문제 이름/계정/src
 > 
-> e.g) BOJ/[1992] 쿼드트리/Jfe/Main.py
+> e.g) BOJ/[1992] 쿼드트리/JFe/Main.py
 > 
 > BOJ/[문제번호] 문제 이름/계정/README.md
 
 ## :family: Contributors
-> [Jfe](https://github.com/Go-Jaecheol)
+> [JFe](https://github.com/Go-Jaecheol)
 > 
 > [BaekSu](https://github.com/SeongukBaek)
 > 
@@ -57,7 +59,7 @@
 
 ---
 
-11주차 ~ 20주차 문제 확인
+<details><summary>11주차 ~ 20주차 문제 확인</summary>
 
 ||1|2|3|
 |:---:|:---:|:---:|:---:|
@@ -78,7 +80,7 @@
 > - **16주차 ~ 17주차 : 그래프 탐색 (DFS & BFS)**  
 > - **18주차 ~ : 시뮬레이션 (삼성 SW 기출 위주)**  
   
-
+</details>
 
 ---
 
@@ -87,6 +89,11 @@
 |**21주차**<br> (09.27 ~ 10.03)|[어른 상어](https://www.acmicpc.net/problem/19237)|[마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)|[마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)|
 |**22주차**<br> (10.04 ~ 10.10)|[줄 세우기](https://www.acmicpc.net/problem/2252)|[문제집](https://www.acmicpc.net/problem/1766)|[음악프로그램](https://www.acmicpc.net/problem/2623)|
 |**23주차**<br> (11.08 ~ 11.14)|[최종 순위](https://www.acmicpc.net/problem/3665)|[게임 개발](https://www.acmicpc.net/problem/1516)|[ACM Craft](https://www.acmicpc.net/problem/1005)|
+|**24주차**<br> (11.15 ~ 11.21)|[⚾](https://www.acmicpc.net/problem/17281)|[배열 돌리기 4](https://www.acmicpc.net/problem/17406)|[캐슬 디펜스](https://www.acmicpc.net/problem/17135)|
+|**25주차**<br> (11.22 ~ 11.28)|[괄호 추가하기](https://www.acmicpc.net/problem/16637)|[색종이 붙이기](https://www.acmicpc.net/problem/17136)|[다리 만들기 2](https://www.acmicpc.net/problem/17472)|
+|**26주차**<br> (01.03 ~ 01.09)|[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)|[조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)|[큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)|
 
 > - **/ ~ 21주차 : 시뮬레이션 (삼성 SW 기출 위주)**  
-> - **22주차 ~ : 위상 정렬**  
+> - **22주차 ~ 23주차 : 위상 정렬**  
+> - **24주차 ~ 25주차 : 브루트포스 (삼성 A형 기출 위주)**
+> - **26주차 ~ : 그리디 (프로그래머스 고득점 Kit)** 
