@@ -3,6 +3,8 @@
 ## :computer: 참고 사이트
 > [Baekjoon Online Judge](https://www.acmicpc.net/)
 >
+> [프로그래머스](https://programmers.co.kr/)
+>
 > [알고리즘 개념 정리(woong-j)](https://www.notion.so/Algorithm-b79e31f05c39413fb9babbc5ef57bfe9)
 
 ## :pushpin: 진행 방식
@@ -89,7 +91,9 @@
 |**23주차**<br> (11.08 ~ 11.14)|[최종 순위](https://www.acmicpc.net/problem/3665)|[게임 개발](https://www.acmicpc.net/problem/1516)|[ACM Craft](https://www.acmicpc.net/problem/1005)|
 |**24주차**<br> (11.15 ~ 11.21)|[⚾](https://www.acmicpc.net/problem/17281)|[배열 돌리기 4](https://www.acmicpc.net/problem/17406)|[캐슬 디펜스](https://www.acmicpc.net/problem/17135)|
 |**25주차**<br> (11.22 ~ 11.28)|[괄호 추가하기](https://www.acmicpc.net/problem/16637)|[색종이 붙이기](https://www.acmicpc.net/problem/17136)|[다리 만들기 2](https://www.acmicpc.net/problem/17472)|
+|**26주차**<br> (01.03 ~ 01.09)|[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)|[조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)|[큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)|
 
 > - **/ ~ 21주차 : 시뮬레이션 (삼성 SW 기출 위주)**  
 > - **22주차 ~ 23주차 : 위상 정렬**  
-> - **24주차 ~ : 브루트포스 (삼성 A형 기출 위주)**  
+> - **24주차 ~ 25주차 : 브루트포스 (삼성 A형 기출 위주)**
+> - **26주차 ~ : 그리디 (프로그래머스 고득점 Kit)** 
