@@ -21,39 +21,41 @@ def sort(dict):
             cnt -= 2
     return list
 
+def R():
+    global col_cnt
+    line_cnt = 0
+    for i in range(row_cnt):
+        A[i] = sort(init_dict(A[i]))
+        if line_cnt < len(A[i]): line_cnt = len(A[i])
+        col_cnt = line_cnt
+    # 0 채우기
+    for i in range(row_cnt):
+        for _ in range(col_cnt - len(A[i])): A[i].append(0)
+
+def C():
+    global A, row_cnt
+    line_cnt = 0
+    next_A = [[0 for _ in range(col_cnt)] for _ in range(col_cnt)]
+    for i in range(col_cnt):
+        temp = sort(init_dict([a[i] for a in A]))
+        if line_cnt < len(temp): line_cnt = len(temp)
+        row_cnt = line_cnt
+        # 배열 A 업데이트 및 0 채우기
+        for x, v in enumerate(temp):
+            try: next_A[x][i] = v
+            except:
+                next_A.append([0 for _ in range(col_cnt)])
+                next_A[x][i] = v
+    A = copy.deepcopy(next_A)
+
 def start_calculation():
     second = 0
     for s in range(101):
-        global A, row_cnt, col_cnt
         try: 
             if A[r][c] == k: break
         except: pass
-        line_cnt = 0
-        if row_cnt >= col_cnt: # R 연산
-            for i in range(row_cnt):
-                dict = init_dict(A[i])
-                A[i] = sort(dict)
-                if line_cnt < len(A[i]): line_cnt = len(A[i])
-                col_cnt = line_cnt
-            # 0 채우기
-            for i in range(row_cnt):
-                for _ in range(col_cnt - len(A[i])):
-                    A[i].append(0)
-        else: # C 연산
-            next_A = [[0 for _ in range(col_cnt)] for _ in range(col_cnt)]
-            for i in range(col_cnt):
-                column = [a[i] for a in A]
-                dict = init_dict(column) 
-                temp = sort(dict)
-                if line_cnt < len(temp): line_cnt = len(temp)
-                row_cnt = line_cnt
-                # 배열 A 업데이트 및 0 채우기
-                for x, v in enumerate(temp):
-                    try: next_A[x][i] = v
-                    except:
-                        next_A.append([0 for _ in range(col_cnt)])
-                        next_A[x][i] = v
-            A = copy.deepcopy(next_A)
+        if row_cnt >= col_cnt: R()
+        else: C()
         second = s + 1
     if second == 101: return -1
     return second
