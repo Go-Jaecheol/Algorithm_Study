@@ -33,7 +33,7 @@ def sort(dict):
 
 - 생성한 **딕셔너리를 key를 기준으로 오름차순 정렬**한 것을 반복문을 통해 문제에서 제시한 조건으로 정렬한다.
 
-- 배열에 반복문을 통해 딕셔너리의 key와 value를 append하며, **append한 value보다 큰 값을 가진 값이 `(cnt-1) - 2` ((append한 value가 위치한 index) - 2 : 바로 이전에 append한 value의 index)' 에 위치한다면,** `cnt-4` 와 `cnt-2` (key), `cnt-3` 와 `cnt-1` (value) 의 값을 서로 바꾼다.
+- 배열에 반복문을 통해 딕셔너리의 key와 value를 append하며, **append한 value보다 큰 값을 가진 값이 `(cnt-1) - 2` ((append한 value가 위치한 index) - 2 : 바로 이전에 append한 value의 index) 에 위치한다면,** `cnt-4` 와 `cnt-2` (key), `cnt-3` 와 `cnt-1` (value) 의 값을 서로 바꾼다.
 
 ## :memo: Review
 
