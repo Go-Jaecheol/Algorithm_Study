@@ -27,6 +27,7 @@ function getAllChoices(pickOption, currentIndex) {
 ```
 ### 계산하기
 식을 쭉 지나가면서 괄호 씌운 것을 먼저 계산한 후에, 나머지 식을 다시 계산해준다.
+``` js
 function calculate(choice, formulaString) {
     const picked = {};
     const formula = formulaString.split('');
@@ -60,6 +61,7 @@ function calculate(choice, formulaString) {
 
     return res;
 }
+```
 ## Review
 처음 풀어보는 유형이라 뇌정지가 좀 왔었다. 괄호 씌우는 것이 어려울 줄 알았지만, 계산하는 것을 구현하는 것도 만만치않게 어려웠다.
 
