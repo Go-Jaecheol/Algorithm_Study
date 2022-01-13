@@ -92,6 +92,7 @@
 |**24주차**<br> (11.15 ~ 11.21)|[⚾](https://www.acmicpc.net/problem/17281)|[배열 돌리기 4](https://www.acmicpc.net/problem/17406)|[캐슬 디펜스](https://www.acmicpc.net/problem/17135)|
 |**25주차**<br> (11.22 ~ 11.28)|[괄호 추가하기](https://www.acmicpc.net/problem/16637)|[색종이 붙이기](https://www.acmicpc.net/problem/17136)|[다리 만들기 2](https://www.acmicpc.net/problem/17472)|
 |**26주차**<br> (01.03 ~ 01.09)|[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)|[조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)|[큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)|
+|**27주차**<br> (01.10 ~ 01.16)|[구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)|[섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)|[단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)|
 
 > - **/ ~ 21주차 : 시뮬레이션 (삼성 SW 기출 위주)**  
 > - **22주차 ~ 23주차 : 위상 정렬**  
