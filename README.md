@@ -93,8 +93,10 @@
 |**25주차**<br> (11.22 ~ 11.28)|[괄호 추가하기](https://www.acmicpc.net/problem/16637)|[색종이 붙이기](https://www.acmicpc.net/problem/17136)|[다리 만들기 2](https://www.acmicpc.net/problem/17472)|
 |**26주차**<br> (01.03 ~ 01.09)|[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)|[조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)|[큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)|
 |**27주차**<br> (01.10 ~ 01.16)|[구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)|[섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)|[단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)|
+|**28주차**<br> (01.17 ~ 01.23)|[완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)|[위장](https://programmers.co.kr/learn/courses/30/lessons/42578)|[베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)|
 
 > - **/ ~ 21주차 : 시뮬레이션 (삼성 SW 기출 위주)**  
 > - **22주차 ~ 23주차 : 위상 정렬**  
 > - **24주차 ~ 25주차 : 브루트포스 (삼성 A형 기출 위주)**
-> - **26주차 ~ : 그리디 (프로그래머스 고득점 Kit)** 
+> - **26주차 ~ 27주차 : 그리디 (프로그래머스 고득점 Kit)** 
+> - **28주차 ~ : 해시 (프로그래머스 고득점 Kit)**  
