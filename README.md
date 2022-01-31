@@ -95,6 +95,7 @@
 |**27주차**<br> (01.10 ~ 01.16)|[구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)|[섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)|[단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)|
 |**28주차**<br> (01.17 ~ 01.23)|[완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)|[위장](https://programmers.co.kr/learn/courses/30/lessons/42578)|[베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)|
 |**29주차**<br> (01.24 ~ 01.30)|[모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)|[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)|[카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)|
+|**30주차**<br> (01.31 ~ 02.05)|[기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)|[프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)|[다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)|
 
 > - **/ ~ 21주차 : 시뮬레이션 (삼성 SW 기출 위주)**  
 > - **22주차 ~ 23주차 : 위상 정렬**  
@@ -102,3 +103,4 @@
 > - **26주차 ~ 27주차 : 그리디 (프로그래머스 고득점 Kit)** 
 > - **28주차 : 해시 (프로그래머스 고득점 Kit)**  
 > - **29주차 : 완전탐색 (프로그래머스 고득점 Kit)** 
+> - **30주차 : 스택/큐 (프로그래머스 고득점 Kit)** 
