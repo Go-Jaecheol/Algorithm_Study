@@ -1,4 +1,4 @@
-# [42862] 체육복 - Python
+# [42860] 조이스틱 - Python
 
 ## :mag: Algorithm
 
