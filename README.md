@@ -84,6 +84,8 @@
 
 ---
 
+<details><summary>21주차 ~ 30주차 문제 확인</summary>
+
 ||1|2|3|
 |:---:|:---:|:---:|:---:|
 |**21주차**<br> (09.27 ~ 10.03)|[어른 상어](https://www.acmicpc.net/problem/19237)|[마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)|[마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)|
@@ -104,3 +106,14 @@
 > - **28주차 : 해시 (프로그래머스 고득점 Kit)**  
 > - **29주차 : 완전탐색 (프로그래머스 고득점 Kit)** 
 > - **30주차 : 스택/큐 (프로그래머스 고득점 Kit)** 
+  
+</details>
+
+---
+
+||1|2|3|
+|:---:|:---:|:---:|:---:|
+|**31주차**<br> (02.07 ~ 02.12)|[타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)|[네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)|[단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163)|
+
+
+> - **31주차 : DFS/BFS (프로그래머스 고득점 Kit)**
