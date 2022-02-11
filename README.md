@@ -4,8 +4,6 @@
 > [Baekjoon Online Judge](https://www.acmicpc.net/)
 >
 > [프로그래머스](https://programmers.co.kr/)
->
-> [알고리즘 개념 정리(woong-j)](https://www.notion.so/Algorithm-b79e31f05c39413fb9babbc5ef57bfe9)
 
 ## :pushpin: 진행 방식
 > 매주 3문제씩 풀고 업로드하고 리뷰 `(README.md)` 합니다.  
