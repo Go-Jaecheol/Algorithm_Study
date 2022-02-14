@@ -111,8 +111,8 @@
 
 ||1|2|3|
 |:---:|:---:|:---:|:---:|
-|**31주차**<br> (02.07 ~ 02.12)|[타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)|[네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)|[단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163)|
-|**32주차**<br> (02.07 ~ 02.12)|[여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)|[디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)|[이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)|
+|**31주차**<br> (02.07 ~ 02.13)|[타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)|[네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)|[단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163)|
+|**32주차**<br> (02.14 ~ 02.20)|[여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)|[디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)|[이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)|
 
 
 > - **31주차 : DFS/BFS (프로그래머스 고득점 Kit)**
