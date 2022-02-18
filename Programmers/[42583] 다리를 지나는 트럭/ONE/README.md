@@ -10,12 +10,12 @@
 - 다리에는 트럭이 최대 `bridge_length` 대 올라갈 수 있으며, 다리는 `weight` 이하까지의 무게를 견딜 수 있습니다
 
 > _Key Idea_
-- 다리의 상태를 나타내는 `int[] bridge` 생성
-- `Queue` 를 생성하여 모든 트럭의 무게를 삽입합니다
-- 맨 처음 `Queue` 의 **가장 앞에 있는 값**을 다리에 넣습니다
-- bridge 의 트럭들을 **앞으로 한칸씩 이동**시킵니다
-- `Queue` 의 맨 앞의 트럭의 무게와 `bridge` 에 있는 트럭들의 무게를 모두 더한 값이 `weight` 를 넘지 않으면 큐에서 꺼내 `bridge[0]` 에 넣어줍니다
-- 위를 _다리가 모두 비워질때까지_ 반복합니다
+> - 다리의 상태를 나타내는 `int[] bridge` 생성
+> - `Queue` 를 생성하여 모든 트럭의 무게를 삽입합니다
+> - 맨 처음 `Queue` 의 **가장 앞에 있는 값**을 다리에 넣습니다
+> - bridge 의 트럭들을 **앞으로 한칸씩 이동**시킵니다
+> - `Queue` 의 맨 앞의 트럭의 무게와 `bridge` 에 있는 트럭들의 무게를 모두 더한 값이 `weight` 를 넘지 않으면 큐에서 꺼내 `bridge[0]` 에 넣어줍니다
+> - 위를 _다리가 모두 비워질때까지_ 반복합니다
 
 ```Java
     public int solution(int bridge_length, int weight, int[] truck_weights) {
