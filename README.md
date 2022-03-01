@@ -114,7 +114,9 @@
 |**31주차**<br> (02.07 ~ 02.13)|[타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)|[네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)|[단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163)|
 |**32주차**<br> (02.14 ~ 02.20)|[여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)|[디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)|[이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)|
 |**33주차**<br> (02.21 ~ 02.27)|[K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)|[가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)|[H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)|
+|**34주차**<br> (02.28 ~ 03.06)|[가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)|[순위](https://programmers.co.kr/learn/courses/30/lessons/49191)|[방의 개수](https://programmers.co.kr/learn/courses/30/lessons/49190)|
 
 > - **31주차 : DFS/BFS (프로그래머스 고득점 Kit)**
 > - **32주차 : DFS/BFS, 힙 (프로그래머스 고득점 Kit)**
 > - **33주차 : 정렬 (프로그래머스 고득점 Kit)**
+> - **34주차 :  (프로그래머스 고득점 Kit)**
