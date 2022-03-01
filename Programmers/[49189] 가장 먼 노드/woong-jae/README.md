@@ -23,15 +23,14 @@ function solution(n, edge) {
     while(1) {
         let size = stack.length
         let nextStack = [];
-        while(stack.length) {
-            let currentNode = stack.pop();
+        stack.forEach(currentNode => {
             adj_list[currentNode].forEach(next => {
                if(!visited[next]) {
                    visited[next] = true;
                    nextStack.push(next);
                }
             });
-        }
+        });
         currentDepth++;
         if(!nextStack.length) {
             answer = size;
@@ -45,3 +44,5 @@ function solution(n, edge) {
 ```
 ## Review
 쉽게 풀 수 있었던 문제. 마지막 테스트 케이스가 `25ms` 나오던데, 더 줄일 수 없나 고민된다.
+
+> `pop`을 하지 않고 `forEach`로 변경해서 `21ms`로 줄였다.
