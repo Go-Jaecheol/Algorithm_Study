@@ -8,22 +8,20 @@ function solution(n, edge) {
         adj_list[e[1]].push(e[0]);
     });
     
-    // BFS로 깊이 계산
     let stack = [1];
     let currentDepth = 1;
     visited[1] = true;
     while(1) {
         let size = stack.length
         let nextStack = [];
-        while(stack.length) {
-            let currentNode = stack.pop();
+        stack.forEach(currentNode => {
             adj_list[currentNode].forEach(next => {
                if(!visited[next]) {
                    visited[next] = true;
                    nextStack.push(next);
                }
             });
-        }
+        });
         currentDepth++;
         if(!nextStack.length) {
             answer = size;
@@ -34,4 +32,3 @@ function solution(n, edge) {
     
     return answer;
 }
-
