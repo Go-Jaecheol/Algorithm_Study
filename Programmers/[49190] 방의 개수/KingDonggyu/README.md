@@ -2,7 +2,7 @@
 
 ## :mag: Algorithm
 
-### JavaScript
+### Graph
 
 ## :round_pushpin: Logic
 
