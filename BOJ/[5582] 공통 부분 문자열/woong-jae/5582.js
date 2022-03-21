@@ -17,6 +17,7 @@ function solution() {
     let longest = 0;
     const cache = new Array(4001).fill(0).map(() => new Array(4001).fill(0));
     for(let start = 0; start < short.length; start++) {
+        if(short.length - start <= longest) break;
         for(let i = 0; i < long.length; i++) {
             if(short[start] === long[i] && !cache[start][i]) {
                 let length = 1, offset = 1; 
