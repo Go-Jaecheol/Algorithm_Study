@@ -118,6 +118,7 @@
 |**35주차**<br> (03.07 ~ 03.13)|[N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)|[입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)|[징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236)|
 |**36주차**<br> (03.14 ~ 03.20)|[잃어버린 괄호](https://www.acmicpc.net/problem/1541)|[AC](https://www.acmicpc.net/problem/5430)|[문자열 폭발](https://www.acmicpc.net/problem/9935)|
 |**37주차**<br> (03.21 ~ 03.27)|[공통 부분 문자열](https://www.acmicpc.net/problem/5582)|[Contact](https://www.acmicpc.net/problem/1013)|[A와 B](https://www.acmicpc.net/problem/12904)|
+|**38주차**<br> (03.28 ~ 04.03)|[잠수함 식별](https://www.acmicpc.net/problem/2671)|[부분 문자열](https://www.acmicpc.net/problem/16916)|[Cubeditor](https://www.acmicpc.net/problem/1701)|
 
 > - **31주차 : DFS/BFS (프로그래머스 고득점 Kit)**
 > - **32주차 : DFS/BFS, 힙 (프로그래머스 고득점 Kit)**
@@ -126,3 +127,4 @@
 > - **35주차 : DP, 이분 탐색 (프로그래머스 고득점 Kit)**
 > - **36주차 : 문자열**
 > - **37주차 : 문자열**
+> - **38주차 : 문자열**
