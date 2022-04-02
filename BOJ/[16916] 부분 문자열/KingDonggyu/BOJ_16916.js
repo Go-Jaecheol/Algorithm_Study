@@ -17,8 +17,6 @@ function buildPatternTable(word) {
     }
   }
 
-  console.log(patternTable);
-
   return patternTable;
 }
 
