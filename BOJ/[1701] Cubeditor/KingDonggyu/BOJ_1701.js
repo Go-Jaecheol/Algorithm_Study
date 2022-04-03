@@ -26,7 +26,6 @@ function solution(text) {
   for (let i = 0; i < text.length - 2; i++) {
     patternTable = buildPatternTable(text.slice(i));
     maxLen = Math.max(maxLen, ...patternTable);
-    if (maxLen + i === text.length - 1) break;
   }
 
   return maxLen;
