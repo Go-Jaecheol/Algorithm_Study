@@ -19,7 +19,7 @@
 ## :family: Contributors
 > [JFe](https://github.com/Go-Jaecheol)
 > 
-> [BaekSu](https://github.com/SeongukBaek)
+> [SUbbb](https://github.com/SeongukBaek)
 > 
 > [pinkishincoloragain](https://github.com/pinkishincoloragain)
 > 
