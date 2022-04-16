@@ -6,9 +6,9 @@
 ## :black_circle: Logic
 
 > _Key Idea_
-- 이전에 `1013 Contact` 문제와 똑같은 유형의 문제
-- 정규표현식을 사용하여 `~` 의 의미가 `+` 와 같으므로
-- `(100+1+|01)+` 을 `matches()` 함수를 사용하여 확인
+> - 이전에 `1013 Contact` 문제와 똑같은 유형의 문제
+> - 정규표현식을 사용하여 `~` 의 의미가 `+` 와 같으므로
+> - `(100+1+|01)+` 을 `matches()` 함수를 사용하여 확인
 
 ```Java
 public static void main(String[] args) {
